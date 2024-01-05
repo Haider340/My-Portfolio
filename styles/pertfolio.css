@@ -1,0 +1,36 @@
+/* nav related styles */
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}.text-primary{
+    color: coral;
+} .btn-primary{
+    border-radius: 8px;
+    background-color: coral;
+    font-size: 15px;
+    font-weight: 700;
+    color: blanchedalmond;
+    padding: 10px 20px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}nav li{
+    list-style: none;
+    margin-right: 50px;
+}nav a{
+    text-decoration: none;
+    color: black;
+}
