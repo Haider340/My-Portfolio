@@ -24,6 +24,22 @@ nav {
     color: blanchedalmond;
     padding: 10px 20px;
 }
+.section-title{
+    color: black;
+    text-align: center;
+    font-family: Open Sana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  .section-description{
+    color: black;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+
+  }
 
 nav > ul {
     display: flex;
@@ -44,6 +60,46 @@ nav > ul {
     padding: 30px 30px 30px 150px; 
     display: flex;
     align-items: center;
-}.banner .profile-pic{
-    width: 200px;
+}
+.banner-content{
+    
+}
+
+.banner .profile-pic{
+    width: 400px;
+}.banner-greeting{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;margin-bottom: 20px;
+}.banner-discription{
+    font-size: small;
+    padding: 8px;
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* about section style */
+.about{
+    padding: 130px;border-radius: 10px;
+    background-color: beige;
+    margin-top: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}.about-info{
+    text-align: center;
 }
